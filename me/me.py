@@ -1,0 +1,13 @@
+def menu (): #mostramos el menu de opciones
+    print("------------------")
+    print("Bienvenido a su agenda de contactos")
+    print("------------------")
+    print("")
+    print("1- Listar Agenda de contacto")
+    print("2- Agregar un contacto")
+    print("3- Consultar información de contacto")
+    print("4- Eliminar un contacto")
+    print("5- Modificar un contacto")
+    print("0- Salir")
+    print("")
+    return(input("ingrese su opción: "))
